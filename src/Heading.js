@@ -3,12 +3,25 @@ import {ImWindows} from "react-icons/im";
 import {FaXbox} from "react-icons/fa";
 import {TbDeviceNintendo} from "react-icons/tb";
 
+const text= document.querySelector(".type-write");
+
+const delWrite = ()=>{
+  setTimeout(() => {
+
+    text.textContent = "Let the journey begin";}, 5000);
+  setTimeout(() => {
+    text.textContent = "Let the ride start"
+    }, 9000);}
+
+delWrite();
+setInterval(delWrite, 13000);
+
 function Heading() {
   return (
     <div className=" w-1/2 h-96 absolute top-1/4 left-0 text-white ">
         <div className=" ">
             <div className=" w-8/12 items-start mt-5 ml-8 mb-12 relative">
-                <h1 className=" text-5xl text-white font-serif font-bold "><span className=" type-write"><em>Let the Game Start</em></span></h1>    
+                <h1 className=" text-5xl text-white font-serif font-bold"><span className=" type-write "><em>Let the Game Start</em></span></h1>    
             </div>
 
             

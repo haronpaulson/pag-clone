@@ -12,10 +12,8 @@ function App() {
       <Navigation/>
   
       <Heading/>
-      <h1>jj</h1>
-      <Details/>
-      <h2>dsi</h2>
-  
+     
+      <Details/>  
     </div>
   );
 }

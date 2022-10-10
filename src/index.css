@@ -15,11 +15,11 @@
 
   @keyframes animate{
     40%, 60%{
-      right:100%;
+      right:97%;
    
     }
     100%{
-      right:0;
+      right:7px;
     }
 
   }
