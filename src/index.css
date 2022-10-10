@@ -1,5 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+
+  .type-write:before {
+    content: '';
+    @apply  border-r-2 border-red-600 absolute w-full h-full right-0 bg-black text-white;
+    animation: animate 5s steps(20) infinite;
+
+  }
+
+  @keyframes animate{
+    40%, 60%{
+      right:100%;
+   
+    }
+    100%{
+      right:0;
+    }
+
+  }
+
+
+}
+
+
 body {
   margin: 0;
+  background-image: url("../public/sword.gif");
+  
+ background-position: top;
+ background-color: black;
+ background-repeat: no-repeat;
+
+ 
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
