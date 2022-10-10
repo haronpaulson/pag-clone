@@ -8,7 +8,7 @@ const text= document.querySelector(".type-write");
 const delWrite = ()=>{
   setTimeout(() => {
 
-    text.textContent = "Let the journey begin";}, 5000);
+    text.textContent = "Let the journey beginn";}, 5000);
   setTimeout(() => {
     text.textContent = "Let the ride start"
     }, 9000);}
