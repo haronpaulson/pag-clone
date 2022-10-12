@@ -8,7 +8,7 @@ function Details() {
         <h3 className=" mr-10 text-xl text-red-300 font-semibold sm:text-lg xl:mr-1 ">Lots of free content created for you.</h3>
         <button type="text" className=" flex items-center bg-white border-2 border-white rounded-md p-1 ml-64 mt-2 mb-7 text-black font-semibold sm:ml-24 lg:ml-56 xl:ml-72" >See More  <AiFillCaretRight className=" h-6 w-6 ml-2 "/></button>
         <div className=" mt-64 sm:mt-32 lg:mt-44 md: absolute -bottom-12   lg:mt-56 ml-9 ">
-            <h4 className=" text-xl font-serif mb-1 sm:text-md lg:text-">You are one step away from becoming a part of our family</h4>
+            <h4 className=" text-xl font-serif mb-1 sm:text-md lg:text-">You areee one step away from becoming a part of our family</h4>
             <h2 className="mb-2 text-amber-500 font-serif">Register Now !!!!</h2>
             <label></label>
             <input type="e-mail" className=" w-56 h-7 mb-2 border-2 border-white text-black sm:w-40 rounded-md" placeholder="E-mail"></input><br/>
